@@ -1,0 +1,296 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Manyub Gaming{% endblock %}
+
+{% block content %}
+<section class="relative overflow-hidden py-5">
+    <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-16 animate-fade-in">
+
+        <!-- Left Content -->
+        <div class="text-center lg:text-left space-y-6 animate-slide-in-left">
+            <h1 class="text-sm md:text-5xl font-extrabold text-white leading-tight">
+                ManYuv Gaming & E_Sports Club<br>
+                <span class="text-purple-500 drop-shadow-md text-3xl">Powering Play.</span>
+                <span class="text-yellow-400 drop-shadow-md text-2xl">Elevating Performance.</span>
+            </h1>
+            <p class="text-sm md:text-lg text-gray-300 max-w-xl mx-auto lg:mx-0">
+                ManYuv is India's rising powerhouse in <strong class="text-white">Gaming</strong> and <strong
+                    class="text-white">Digital Services</strong>.
+                We host elite tournaments, train E_Sports athletes, and build digital solutions — from web development
+                and UI/UX to EMR tools and our flagship AAA game: <strong class="text-purple-400">Yodha</strong>.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <a href="/service"
+                    class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg transform hover:-translate-y-1 hover:scale-105 transition duration-300 ease-out">
+                    Explore Services
+                </a>
+                <a href="#esports"
+                    class="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-6 py-3 rounded-xl font-semibold shadow-lg transform hover:-translate-y-1 hover:scale-105 transition duration-300 ease-out">
+                    Join E_Sports
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Visuals -->
+        <div class="relative w-full max-w-md animate-slide-in-right">
+            <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Gaming illustration" class="w-full drop-shadow-xl animate-float-smooth rounded-xl" />
+            <div class="absolute -top-6 -left-6 w-16 h-16 bg-yellow-300 rounded-full opacity-50 animate-ping-slow">
+            </div>
+            <div
+                class="absolute -bottom-8 -right-8 w-24 h-24 bg-purple-400 rounded-full mix-blend-multiply blur-2xl opacity-60 animate-bounce-slow">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Digital Services Section -->
+<section id="services" class="py-5 text-white relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Our Digital Services</h2>
+        <p class="text-lg text-white max-w-2xl mx-auto mb-12">
+            From full-stack development to digital marketing, we offer scalable, powerful solutions to power your brand
+            and boost engagement.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Cards -->
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-purple-700 mb-2">Web Development</h3>
+                <p class="text-white">Modern, responsive, scalable websites tailored to your brand and goals.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-yellow-600 mb-2">Web Maintenance</h3>
+                <p class="text-white">Keep your platforms fast, secure, and up-to-date with our expert support.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-blue-600 mb-2">Digital Marketing</h3>
+                <p class="text-white">Grow your presence with SEO, social media, and performance campaigns.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-pink-600 mb-2">EMR Maintenance</h3>
+                <p class="text-white">Secure, reliable EMR upkeep for healthcare systems and platforms.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-indigo-600 mb-2">Full Stack Development</h3>
+                <p class="text-white">Frontend to backend — complete development pipelines handled end-to-end.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-green-600 mb-2">UI/UX Design</h3>
+                <p class="text-white">Crafting visually rich and intuitive designs that delight users.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-red-600 mb-2">Power BI & Analytics</h3>
+                <p class="text-white">Unlock insights with dashboards and intelligent data visualizations.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-teal-600 mb-2">Video Editing</h3>
+                <p class="text-white">Professional editing and motion graphics for marketing, media, and content.</p>
+            </div>
+
+            <div
+                class="p-6 bg-stone-900 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+                <h3 class="text-xl font-semibold text-orange-600 mb-2">Data Projects</h3>
+                <p class="text-white">Data cleansing, transformation, and processing for business intelligence.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gaming Services Section -->
+<section id="gaming-services" class="text-white py-5 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+            🎮 Gaming & E_Sports Services
+        </h2>
+
+        <!-- 1: Esports Tournament Management -->
+        <div class="flex flex-col lg:flex-row items-center gap-10 mb-20">
+            <div class="lg:w-1/2">
+                <img src="https://img.freepik.com/free-photo/medium-shot-victorious-gamers-winning_23-2149350009.jpg"
+                    alt="E_Sports Tournament" class="rounded-2xl shadow-lg w-full h-auto" />
+            </div>
+            <div class="lg:w-1/2 space-y-4">
+                <h3 class="text-2xl font-semibold text-purple-400">Custom Tournaments</h3>
+                <p class="text-lg text-gray-300">We host elite <strong>offline sports</strong> events and high-stakes
+                    <strong>E_Sports tournaments</strong> tailored to community, college, and corporate audiences with
+                    immersive setups and real-time broadcast support.</p>
+            </div>
+        </div>
+
+        <!-- 2: Esports Training -->
+        <div class="flex flex-col-reverse lg:flex-row items-center gap-10 mb-20">
+            <div class="lg:w-1/2 space-y-4">
+                <h3 class="text-2xl font-semibold text-yellow-400">E_Sports Training Programs</h3>
+                <p class="text-lg text-gray-300">Our structured training helps aspiring players master strategy,
+                    mechanics, and team coordination. We nurture talent through expert coaching, VOD reviews, and
+                    performance analytics.</p>
+            </div>
+            <div class="lg:w-1/2">
+                <img src="https://img.freepik.com/free-photo/team-working-animation-project_23-2149269900.jpg" alt="Training"
+                    class="rounded-2xl shadow-lg w-full h-auto" />
+            </div>
+        </div>
+
+        <!-- 3: Game Development Division -->
+        <div class="flex flex-col lg:flex-row items-center gap-10 mb-20">
+            <div class="lg:w-1/2">
+                <img src="https://img.freepik.com/free-photo/videogamer-winning-first-person-shooter-tournament-using-rgb-keyboard-professional-headphones-pro-player-man-talking-with-other-players-online-game-competition-powerful-computer_482257-3933.jpg" alt="Game Development"
+                    class="rounded-2xl shadow-lg w-full h-auto" />
+            </div>
+            <div class="lg:w-1/2 space-y-4">
+                <h3 class="text-2xl font-semibold text-indigo-400">Game Development Division</h3>
+                <p class="text-lg text-gray-300">Our in-house division focuses on building world-class games, from
+                    prototypes to polished launches. We combine creative storytelling with advanced graphics and
+                    immersive gameplay design.</p>
+            </div>
+        </div>
+
+        <!-- 4: Yodha (AAA Game) -->
+        <div class="flex flex-col-reverse lg:flex-row items-center gap-10">
+            <div class="lg:w-1/2 space-y-4">
+                <h3 class="text-2xl font-semibold text-pink-400">Flagship Title: <span class="italic">Yodha</span></h3>
+                <p class="text-lg text-gray-300">Currently under development, <strong>Yodha</strong> is our high-budget
+                    AAA title that blends Indian mythology, futuristic gameplay, and cinematic storytelling. Stay tuned
+                    for more!</p>
+            </div>
+            <div class="lg:w-1/2">
+                <img src="https://img.freepik.com/free-photo/full-shot-ninja-wearing-equipment_23-2150960948.jpg" alt="Yodha Game"
+                    class="rounded-2xl shadow-lg w-full h-auto" />
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<style>
+    @keyframes floatSmooth {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    .animate-float-smooth {
+        animation: floatSmooth 3s ease-in-out infinite;
+    }
+
+    @keyframes slideInLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .animate-slide-in-left {
+        animation: slideInLeft 1s ease-out forwards;
+    }
+
+    @keyframes slideInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .animate-slide-in-right {
+        animation: slideInRight 1s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .animate-fade-in {
+        animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    @keyframes bounceSlow {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-15px);
+        }
+    }
+
+    .animate-bounce-slow {
+        animation: bounceSlow 2.5s infinite ease-in-out;
+    }
+
+    @keyframes pingSlow {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        75%,
+        100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+    .animate-ping-slow {
+        animation: pingSlow 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fadeInUp {
+        animation: fadeInUp 0.8s ease-out forwards;
+    }
+</style>
+{% endblock %}
